@@ -17,4 +17,10 @@ branches:
     - stage
     - prod
     
+notifications:
+ email:
+  test.accsyncghbb@gmail.com
+  
+cache: true
 
+archive: true
