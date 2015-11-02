@@ -13,14 +13,6 @@ script:
 
 #exclude
 branches:
-  except:
-    - stage
-    - prod
-    
-archive: true
+  only:
+    - master
 
-notifications:
- email: 
-  test.accsyncghbb@gmail.com
-  
-#cache: true
