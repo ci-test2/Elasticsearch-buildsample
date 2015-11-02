@@ -13,7 +13,8 @@ script:
 
 #exclude
 branches:
-  only:
-    - master
+  except:
+    - stage
+    - prod
     
 
